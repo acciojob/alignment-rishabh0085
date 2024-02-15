@@ -1,34 +1,39 @@
 /*  your css code here. If applicable */
-/*  your css code here. If applicable */
-.head{
-	text-align:center;
+.middle{
+	/* border: 1px solid black; */
+	width: 100%;
 }
-#table-1{
-	width:800px;
-	border:1px solid black;
+table{
+	/* border: 1px solid black; */
+	Spacing: 1px;
+	border-spacing:0px
 }
-.centre{
-	text-align:center;
+td, tr{
 	
+	margin: 0;
+	border: 1px solid black;
+	height: 20px;
+	padding:1px;
+}
+#table-2{
+	
+}
+#t21{
+	colspan: 6;
+}
+.center{
+	text-align:center;
 }
 .right{
-	text-align:right;
-	
+	text-align: right;
 }
-
-#table-2{
-	width:800px;
-	height:150px;
-	border:1px solid black;
+.bg-green{
+	background-color: green;
 }
-.green{
-	background-color:green;
+.bg-blue{
+	background-color: blue;
 }
-.blue{
-	background-color:blue;
-}
-#table-3{
-	border:1px solid black;
-	Spacing:1px;
-	cell-padding:1px;
+#t-image{
+	text-align:center;
+	/* height: 400px; */
 }
